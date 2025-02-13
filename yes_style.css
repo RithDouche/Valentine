@@ -1,9 +1,18 @@
-body {
+body { 
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: rgb(247, 96, 121);
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header_text {
@@ -12,12 +21,19 @@ body {
     font-weight: bold;
     color: white;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 0px;
+    margin-bottom: 100px; /* Space between text and images */
 }
 
 .gif_container {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px; /* Adds space between the image and GIF */
+}
+
+img {
+    width: 400px; /* Set a fixed width */
+    height: 400px; /* Set a fixed height */
+    object-fit: cover; /* Ensures the aspect ratio is maintained */
+    border-radius: 10px; /* Optional: Adds smooth edges */
 }
