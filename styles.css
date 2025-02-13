@@ -34,19 +34,20 @@ body {
     align-items: center;
     margin-top: 20px;
     margin-left: 20px;
+    padding: 10px;
 }
 
 .btn {
     background-color: #ffffff;
     color: rgb(233, 48, 48);
-    padding: 15px 32px;
+    padding: 20px 40px;
     text-align: center;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 20px;
+    margin: 6px 4px;
     cursor: pointer;
     border: none;
-    border-radius: 12px;
+    border-radius: 15px;
     transition: background-color 0.3s ease;
 }
 
