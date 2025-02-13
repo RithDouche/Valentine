@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
 body { 
     display: flex;
     justify-content: center;
@@ -7,6 +9,7 @@ body {
     flex-direction: column;
     text-align: center;
     margin: 0;
+    font-family: 'Luckiest Guy', cursive; /* Apply Luckiest Guy to everything */
 }
 
 .container {
@@ -16,7 +19,7 @@ body {
 }
 
 .header_text {
-    font-family: 'Nunito';
+    font-family: 'Luckiest Guy', cursive; /* Fix: Ensure "Luckiest Guy" is used */
     font-size: 50px;
     font-weight: bold;
     color: white;

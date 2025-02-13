@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 90vh;
     background-color: rgb(247, 96, 121);
+    font-family: 'Luckiest Guy', cursive; /* Apply Luckiest Guy font globally */
 }
 
 #noButton {
@@ -18,7 +21,7 @@ body {
 }
 
 .header_text {
-    font-family: 'Nunito';
+    font-family: 'Luckiest Guy', cursive; /* Fix: Ensure "Luckiest Guy" is applied */
     font-size: 40px;
     font-weight: bold;
     color: rgb(255, 255, 255);
@@ -49,6 +52,7 @@ body {
     border: none;
     border-radius: 15px;
     transition: background-color 0.3s ease;
+    font-family: 'Luckiest Guy', cursive; /* Fix: Ensure buttons use "Luckiest Guy" */
 }
 
 .gif_container {
